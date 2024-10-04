@@ -1,5 +1,6 @@
 
 import './App.css';
+import Count from './Components/Counter/Count';
 import Person from './Components/Person/Person';
 import StudentsInfo from './Components/StudentsInfo/StudentInfo';
 
@@ -24,7 +25,7 @@ function App() {
       <div className='mb-6'>
         <StudentsInfo name='Tumpa' age='19' isMale={false} ></StudentsInfo>
       </div> */}
-      <div className='mb-6'>
+     {/*  <div className='mb-6'>
         <Person name='Akash' age='29' gender='male'></Person>
       </div>
       <div className='mb-6'>
@@ -35,8 +36,8 @@ function App() {
       </div>
       <div className='mb-6'>
         <Person name='Abida' age='19' gender='female'></Person>
-      </div>
-
+      </div> */}
+  <Count></Count>
 
     </>
   )
